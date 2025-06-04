@@ -17,6 +17,11 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <div id="auth-buttons">
+            <a id="login" href="/auth/steam">Login with Steam</a>
+            <button id="logout" style="display:none;">Logout</button>
+        </div>
+        <p id="user" style="margin-top:10px;"></p>
     </header>
     <main>
         <section id="about">
@@ -34,6 +39,10 @@
         <section id="contact">
             <h2>Contact</h2>
             <p>Email us at <a href="mailto:support@iqskins.com">support@iqskins.com</a></p>
+        </section>
+        <section id="inventory" style="display:none;">
+            <h2>Your Inventory</h2>
+            <ul id="items"></ul>
         </section>
     </main>
     <footer>
